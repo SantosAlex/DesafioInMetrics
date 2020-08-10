@@ -16,11 +16,13 @@ REQUISITOS PARA EXECUTAR A AUTOMACAO:
 •	Configurar JAVA_HOME no seu computador.
 •	Após configurar sua maquina, abra o Eclipse e crie um projeto MAVEN.
 •	Importe o projeto/desafio para o seu projeto criado no eclipse.
+
 •	Certifique-se que os pluggins estão presentes no arquivo pom.xml para execução dos testes.
 1.	Selenium Java
 2.	Jbehave Gherkin
 3.	Jbehave Spring
 4.	Spring Tool
+
 •	O projeto já vem com Chrome/Opera Driver, caso seja de sua opção usar outro driver. Basta ir no site “selenium.dev/downloads” baixar o drive se sua preferencia, em seguida crie uma pasta no path “src/test/resources” e importe o driver. E por fim, realizar as alterações necessárias na classe WebPage.java (do pacote br.com.desafioTest.steps). 
 •	Instale JBehave Plug-In para utilizar dos arquivos .story do projeto, seguindo passo-a-passo abaixo:
 1.	No Eclipse, vá em “Help > Install New Software”
